@@ -1,0 +1,29 @@
+.aboutcontainer{
+    font-size:50px;
+    font-weight: bolder;
+     text-align: center;
+     padding-top: 6%;
+     margin-top: 0%;
+     padding-bottom: 50px;
+
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 100px;
+    padding: 70px;
+    padding-left: 100px;
+}
+p{
+    padding: 5px;
+    text-align: left;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight:inherit;
+    font-size:large;
+    
+}
+h2{
+    font-family: sans-serif;
+    font-weight: bolder;
+    padding-bottom: 40px;
+}

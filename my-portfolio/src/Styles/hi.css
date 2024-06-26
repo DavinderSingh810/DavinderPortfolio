@@ -1,0 +1,51 @@
+.hi{
+    /* background-color: rgb(181, 20, 20); */
+    padding: 20%;
+    
+   
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 0;
+    
+    margin-bottom: 0%;
+    
+}
+.tag{
+   font-size: x-large;
+   font-weight: bold;
+    text-align: center;
+    padding-top: 0%;
+    margin-top: 0%;
+    
+}
+.button-container {
+     position: relative; 
+
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px; 
+    padding-top: 60px;
+    
+
+}
+button {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    
+    /* padding: 20px; */
+    
+   
+}
+.hicontainer{
+    background-color: rgb(183, 244, 244);
+    padding-top: 7%;
+    padding-bottom:15%;
+
+}
+h1{
+    font-size: 70px;
+     padding-bottom: 15px;
+    margin: 7px;
+}
