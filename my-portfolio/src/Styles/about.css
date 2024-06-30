@@ -10,15 +10,15 @@
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 100px;
-    padding: 70px;
-    padding-left: 100px;
+    grid-gap: 10rem;
+     padding: 80px;
+   
 }
 p{
     padding: 5px;
     text-align: left;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-weight:inherit;
+    color: #666;
+    font-weight:500;
     font-size:large;
     
 }
@@ -27,3 +27,30 @@ h2{
     font-weight: bolder;
     padding-bottom: 40px;
 }
+.skills{
+    display: flex;
+    flex-wrap: wrap; 
+    
+   
+}
+ 
+.skills div{
+   
+   padding: 1rem 1.5rem;
+    margin-bottom: 1.5rem;
+    margin-right: 1.5rem;
+    font-size: 1.2rem;
+    background: rgba(153, 153, 153, 0.2);
+    border-radius: 5px;
+    font-weight: 600;
+    color: #666;
+   
+ 
+   
+   
+
+}
+body {
+    font-family: "Montserrat", sans-serif;
+    
+  }

@@ -23,9 +23,29 @@ function About() {
          </div> 
         <div>
             <h2>Skills</h2>
-            
+         <div className='skills'>
+         <div>C++</div> 
+         <div>C</div> 
+         <div>JavaScript</div> 
+         <div>React</div> 
+         <div>Express</div> 
+         <div>Node</div> 
+         <div>MongoDb</div>  
+         <div>SQL</div> 
+         <div>DataStructures</div> 
+         {/* <div>Algorithms</div> 
+         <div>Competitive Programming</div> */}
+         
+         </div>
+         
+
+
+
+
+
          </div> 
          </div>
+
 
          </div>
 

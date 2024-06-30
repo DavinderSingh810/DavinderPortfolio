@@ -9,7 +9,7 @@ function App() {
       <Navbar/>
       <Hic/>
       <About/>
-    </div>
+     </div>
   );
 }
 
