@@ -2,8 +2,8 @@
     font-size:50px;
     font-weight: bolder;
      text-align: center;
-     padding-top: 6%;
-     margin-top: 0%;
+      padding-top: 6%;
+     
      padding-bottom: 50px;
 
 }
@@ -14,7 +14,7 @@
      padding: 80px;
    
 }
-p{
+.pp{
     padding: 5px;
     text-align: left;
     color: #666;
@@ -22,8 +22,8 @@ p{
     font-size:large;
     
 }
-h2{
-    font-family: sans-serif;
+.skillhead{
+    /* font-family: "Montserrat", sans-serif; */
     font-weight: bolder;
     padding-bottom: 40px;
 }
@@ -36,7 +36,7 @@ h2{
  
 .skills div{
    
-   padding: 1rem 1.5rem;
+   padding: 1rem 1.3rem;
     margin-bottom: 1.5rem;
     margin-right: 1.5rem;
     font-size: 1.2rem;
@@ -50,7 +50,6 @@ h2{
    
 
 }
-body {
-    font-family: "Montserrat", sans-serif;
-    
-  }
+.edu{
+    padding-top: 200px;
+}

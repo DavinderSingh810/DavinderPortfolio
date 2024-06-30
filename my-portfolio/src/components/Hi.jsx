@@ -4,7 +4,7 @@ function Hic() {
   return (
   <div className='hicontainer'>
     <div className='hi'>
-      <h1>Hey, Iam Davinder</h1>
+      <h1 className='hey'>Hey, Iam Davinder</h1>
       <p className='tag'>Mastering code to solve today's challenges with tomorrow's solutions.</p>
       
     </div>
