@@ -36,18 +36,44 @@ function About() {
          <div>Algorithms</div> 
          <div>Competitive Programming</div> 
       </div>
-         
+ </div> 
 
-         </div> 
-         
-         </div>
-         <div className='edu'>
+ </div>
+         <div className='grid-container2'>
+         <div >
           <h2>Education</h2>
+          <div>
+          <div className="timeline">
+      <div className="timeline-item">
+        <div className="timeline-content">
+          <h3>Guru Tegh Bahadur Institute Of Techology</h3>
+          <p>Bachelors of Technology In Computer Science Engineering</p>
+          <p>2020-2024</p>
+        </div>
+      </div>
+
+      <div className="timeline-item">
+        <div className="timeline-content">
+          <h3>S.S. Mota Singh School</h3>
+          <p>High School</p>
+        </div>
+      </div>
+    </div>
+          </div>
    
    
          </div>
+         <div>
+            <h2>Achievements</h2>
+            <div className='Achievements'>
+            <p>🌟 600+ Questions solved on Leetcode with 1700+              rating(Top 10%)</p>
+            <p>🌟 Pupil on Codeforces</p>
+            <p>🌟 3 star on CodeChef</p>
+            </div>
+           
+         </div>
 
-
+         </div>
          </div>
 
     

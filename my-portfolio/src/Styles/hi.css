@@ -1,53 +1,63 @@
 
+.hi {
+    padding: 8%; 
+    text-align: center;
+}
 
-.hi{
-    /* background-color: rgb(181, 20, 20); */
-    padding: 20%;
-    
-   
+.tag {
+    font-size: 1.5rem;
+    font-weight: bold;
     text-align: center;
-    padding-top: 2%;
-    padding-bottom: 0;
-    
-    margin-bottom: 0%;
-    
+    margin-top: 0;
 }
-.tag{
-   font-size: x-large;
-   font-weight: bold;
-    text-align: center;
-    padding-top: 0%;
-    margin-top: 0%;
-    
-}
+
 .button-container {
-     position: relative; 
-
-     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 80px; 
-    padding-top: 60px;
-    
-
-}
-button {
-    position: relative;
     display: flex;
     justify-content: center;
+    align-items: center;
     
-    /* padding: 20px; */
     
-   
 }
-.hicontainer{
-    background-color: rgb(183, 244, 244);
-    padding-top: 7%;
-    padding-bottom:17%;
 
+button {
+    
+    font-size: 2rem; 
+    background-color: #3498db; 
+    
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
-.hey{
-    font-size: 70px;
-     padding-bottom: 15px;
-    margin: 7px;
+
+button:hover {
+    background-color: #2980b9; 
 }
+
+.hicontainer {
+    background-color: #b7f4f4; 
+    
+    padding-bottom:17%;
+}
+
+.hey {
+    font-size: 70px; /* Large font size for the heading */
+    margin-bottom: 20px; /* Space below the heading */
+    color: #333; /* Dark text color */
+    white-space: nowrap; /* Prevents text from wrapping */
+    overflow: hidden; /* Ensures text doesn't overflow container */
+    border-right: .15em solid rgb(2, 103, 103); /* Typing cursor effect */
+    animation: typing 3.5s steps(40, end), /* Adjust speed and steps as needed */
+               blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: rgb(2, 103, 103) }
+}
+

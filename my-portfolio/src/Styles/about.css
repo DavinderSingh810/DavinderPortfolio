@@ -5,6 +5,7 @@
       padding-top: 6%;
      
      padding-bottom: 50px;
+     background-color: #f9f9f9;
 
 }
 .grid-container {
@@ -12,6 +13,17 @@
     grid-template-columns: 1fr 1fr;
     grid-gap: 10rem;
      padding: 80px;
+     background-color: #f9f9f9;
+     
+   
+}
+.grid-container2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10rem;
+     padding: 80px;
+     padding-top: 10px ;
+     background-color: #f9f9f9;
    
 }
 .pp{
@@ -46,10 +58,50 @@
     color: #666;
    
  
-   
-   
 
 }
 .edu{
-    padding-top: 200px;
+    font-weight: bolder;
+    padding-bottom: 40px;
 }
+.grid-container2 h2{
+    font-weight: bolder;
+    padding-bottom: 40px;
+}
+
+.timeline {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .timeline-item {
+    position: relative;
+    width: 100%;
+    padding: 20px;
+    border-left: 2px solid #3498db; 
+    background-color: #f9f9f9; 
+  }
+  
+  .timeline-item:last-child {
+    margin-bottom: 0;
+  }
+  
+  .timeline-content {
+    padding-left: 20px; 
+  }
+  
+  .timeline-content h3 {
+    font-size: 1.5rem; 
+    margin-bottom: 5px;
+    color: #333; 
+  }
+  
+  .timeline-content p {
+    font-size: 1rem; 
+    color: #666;
+  }
+  .Achievements{
+    font-size: 1.3rem;
+  }
+  
